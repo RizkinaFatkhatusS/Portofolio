@@ -1,0 +1,24 @@
+body {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.bg-gradient-soft {
+    background: linear-gradient(135deg, #fdfcfb 0%, #e2d1f9 100%);
+}
+
+.purple-accent {
+    color: #8B5CF6;
+}
+
+.bg-purple-accent {
+    background-color: #8B5CF6;
+}
+
+/* Animasi sederhana saat hover */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+.hover-scale:hover {
+    transform: scale(1.05);
+}
